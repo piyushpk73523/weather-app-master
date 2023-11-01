@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      html,
+      body {
+        height: 100%;
+      }
+
+      html {
+        display: table;
+        margin: auto;
+      }
+
+      body {
+        display: table-cell;
+        vertical-align: middle;
+        font-family: sans-serif;
+      }
+    </style>
+    <title>Weather App</title>
+  </head>
+  <body>
+    <form action="/" method="post">
+      <h1>Enter the name of the city to get accurate weather results</h1>
+      <label for="CityInput">City Name : </label>
+      <input
+        type="text"
+        name="cityName"
+        id="CityName"
+        placeholder="Enter city name"
+      />
+      <button type="submit">Go</button>
+    </form>
+  </body>
+</html>
